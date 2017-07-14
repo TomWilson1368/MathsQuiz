@@ -41,13 +41,13 @@ If you would like to have a go at duplicating this for yourself, you would need 
 *Atom IDE
 *Access to googles firebase service (specifically their database and hosting services)
 
-##Getting started
+## Getting started
 In order to get started you need to install all the requirements through Node.js by running the following commands:
 *`npm install -g @angular/cli`
 *`npm install -g firebase-tools`
 You then need to start a project by opening Git Bash(or chosen git client) and running `ng new "insert project name here"` to start a new app with angular. When you have went through that process you should run the app in development mode by using the command: `ng serve`. This means that any progress you make on the project can be shown at `localhost:4200` which you can just view in your web browser. To make progress just edit the files within the file `<InsertProjectNameHere/src/app/` using the Atom IDE
 
-##Deploying to Firebase
+## Deploying to firebase
 After you have done all previous steps, you can deploy the application to firebases hosting system which wioll allow you to access the apps user interface from anywhere with an internet connection. It is completely safe and the spark package is absolutely free. 
 Firstly, make an account on firebase(should just be able to use any google account you may already have).
 Secondly, login to your firebase account through Git Bash by using command `firebase login` where you should be promted to enter your logn details.
